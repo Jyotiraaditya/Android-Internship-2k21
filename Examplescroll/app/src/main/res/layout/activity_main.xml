@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="#FFEB3B"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/heading"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:fontFamily="@font/aclonica"
+       android:gravity="center"
+       android:text="@string/head"
+       android:textColor="#009688"
+       android:textSize="36sp"
+       android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/subhead"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/heading"
+       android:layout_marginTop="15dp"
+       android:fontFamily="@font/aladin"
+       android:text="@string/shead"
+       android:textColor="#00BCD4"
+       android:textSize="27sp"
+       android:textStyle="italic" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:layout_below="@+id/subhead"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:id="@+id/titlehead"
+      android:text="@string/thead"
+       android:textColor="#2196F3"
+      android:textSize="24sp"/>
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#FFFFFF">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/text"
+          android:id="@+id/tv"
+         android:textSize="24sp"
+          android:textStyle="bold|italic"
+          android:textColor="#000000"
+          android:autoLink="all"
+          />
+   </ScrollView>
+
+</LinearLayout>
+
+</RelativeLayout>
