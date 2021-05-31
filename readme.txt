@@ -1,28 +1,28 @@
-DAILY WORK:
+#DAILY WORK:
 
-DAY-1:
+###DAY-1:
 
      Doubts clarifing session regarding the internship.
 
-DAY-2:
+###DAY-2:
 
      Discussed about JAVA
 
-DAY-3:
+###DAY-3:
 
      Discussed about GIT and GITHUB
 
-DAY-4:
+###DAY-4:
 
      Discussed about GIT and GITHUB
 
-DAY-5:
+###DAY-5:
 
      Discussed about ANDROID
 
-DAY-6:
+###DAY-6:
 
      Worked on the application(TOAST AND CLIK).
  
-DAY -7:
+###DAY -7:
      Worked on the application(Scroll and Text views).
