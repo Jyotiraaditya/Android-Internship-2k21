@@ -1,0 +1,6 @@
+com/example/examplelife/SecondActivity.java
+ com.example.examplelife.SecondActivity
+com/example/examplelife/MainActivity.java
+ com.example.examplelife.MainActivity
+com/example/examplelife/BuildConfig.java
+ com.example.examplelife.BuildConfig
