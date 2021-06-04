@@ -94,13 +94,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:id="@+id/male"
-                android:buttonTint="@color/teal_200"
+                android:buttonTint="#000000"
                 android:text="Male"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:buttonTint="@color/teal_200"
+                android:buttonTint="#000000"
                 android:id="@+id/female"
                 android:text="Female"/>
         </RadioGroup>
