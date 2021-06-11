@@ -14,6 +14,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.MyViewHolder> 
     Context ct;
     int[] myimages;
     String[] myNames,myPrice;
+    MyInterface myInterface;
     public ItemAdapter(MainActivity mainActivity, int[] images, String[] itemNames, String[] itemprice) {
         ct=mainActivity;
         myimages=images;
